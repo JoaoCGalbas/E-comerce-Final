@@ -1,0 +1,220 @@
+*{margin: 0;
+    box-sizing: border-box;}
+    
+    body{display: grid;
+    grid-template-columns: 90px 1fr;
+    height: 100%;
+background-image: url(bckground3.png);
+background-repeat: no-repeat;
+background-size: cover;}
+    
+
+
+.menu {position: absolute;
+      top: 0;
+      left: -300px;
+      width: 260px;
+      height: 100vh;
+      background: white;
+      padding: 20px;
+      box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+      transition: left 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 999;
+      
+    }
+    
+    .lista {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    
+    .checkbox {align-items: center;
+      position: absolute;
+      width: 80px;
+      height: 90px;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 9999;}
+    
+    
+    .checkbox:checked + .menu {
+      left: 0;
+    }
+    
+    .lista li {
+      margin: 15px 0;
+      line-height: 45px;
+    }
+    
+    .lista a {
+      text-decoration: none;
+      color: #aaa;
+      font-size: 30px;
+      transition: 0.3s;}
+    
+    
+    .lista a:hover,
+    .lista a.active {
+      color: #00765A;
+    }
+    
+    
+    
+    .menu footer {
+      text-align: center;
+      font-size: 12px;
+      color: #999;
+    }
+    
+    .lista {
+      margin-bottom: 10px;
+    }
+    
+    .lista i {
+      margin: 0 5px;
+      cursor: pointer;
+    }
+    
+    .logo {margin-left: 50%;
+    background-color:#0765;
+    width: 38%;}
+    
+    #menu-btn {position: absolute;
+    width: 90px;
+    height: 90px;}
+    
+    .bloquinho {background-color: #0f0f0f;
+    width: 80px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;}
+    
+    .logo {position: absolute;
+    top: 0;
+    right: 0px;
+    width: 180px;
+    height: 90px;
+    padding: 0;
+    display: flex;}
+    
+    .l1 {color: white;
+    margin-left: 25%;
+    margin-top: 15%;
+    font-weight: 600;
+    font-size: 28px;
+    bottom: 5px;
+    }
+    .asd {display: flex;}
+    
+    .colorib {color: white;
+    margin-top: 30px;
+    margin-left: 30px;}
+    .tela {display: flex;}
+    
+    .item {flex-grow: 1;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    transition: 0.4s;}
+    .item:hover {flex-grow: 6;
+    background-color: transparent;}
+    
+    
+    .bloco {
+    width: 100%;
+    height: 10%;
+  } 
+    
+    .face {margin-top: 280px;
+        margin-left: 35%;
+        cursor: pointer;}
+        .tt {margin-left: 35%;
+            padding-top: 45px;
+            cursor: pointer;}
+        .insta {margin-left: 35%;
+            cursor: pointer;
+            padding-top: 45px;}
+        .in {margin-left: 35%;
+            cursor: pointer;
+            padding-top: 45px;}
+      
+
+          .topoprincipal{ display: flex;
+          cursor: pointer;}
+          .barrapesquisa{ background-color: white;
+          width: 500px;
+          margin-left: 550px;
+        height: 30px;
+  border-radius: 12px;
+  margin-top: 15px;
+  }
+  .textopesquisa{ margin-left: 150px;
+  font-size: 28px;
+font-weight: normal;}
+
+.carrinhocompras{margin-left: 32%;
+margin-top: 15px;
+margin-right: 2%;
+  height: 32px;
+}
+.conteudo{ width: 500px;
+margin-left: 10%;
+margin-top: 5%;}
+.paginaprincipal{ display: flex;}
+.login{ background-color: transparent;
+border: none;
+cursor: pointer;
+margin-top: 15px;
+margin-left: 10%;}
+.conteudo{height: 800px;}
+.placavideo{height: 400px;
+margin-top: 10%;
+margin-left: 20%;}
+.valor{ color: white;
+margin-top: 2%;
+margin-left: 22%;}
+.promocao{ width: 600px;
+  color: white;
+  margin-left: 60%;
+  margin-top: -40%;
+  font-size: 30px
+}
+.promocao2{ margin-top: 200px;}   
+
+#branco{ margin-top: 15%;}
+.footer{
+margin-top: 18.4%;
+height: 40px;}
+  .ulfooter{ display: flex;
+  flex-direction: row;
+list-style-type: none;
+color: white;
+font-size: 20px;
+
+margin-left: 5%;}
+ .ulfooterabout{ cursor: pointer;} 
+.ulfooteraboutus{ margin-left: 4%;
+cursor: pointer;}
+.ulfooterfaleconosco{margin-left: 4%;
+cursor: pointer;} 
+
+.rightfooter{margin-left: 50%;
+cursor: pointer;}
+.facebooksvg{ margin-left: 1%;
+cursor: pointer;}
+.twittersvg{ margin-left: 1%;
+cursor: pointer;}
+
+.botaosobrenos{ background-color: transparent;
+border: none;
+color: white;
+font-size: 20px;
+list-style: none;}
+.aboutus{ color: white;}
+.aSobreNos{ text-decoration: none;}
